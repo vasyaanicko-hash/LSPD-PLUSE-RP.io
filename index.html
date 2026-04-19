@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
@@ -17,35 +17,42 @@
       <a class="brand" href="#top">
         <img src="assets/logo.webp" alt="LSPD logo" class="brand-logo" />
         <div>
-          <div class="brand-kicker">Official Recruitment Portal</div>
+          <div class="brand-kicker">Operations Portal</div>
           <div class="brand-title">Los Santos Police Department</div>
         </div>
       </a>
       <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#divisions">Divisions</a>
-        <a href="#manual">Manual</a>
-        <a href="#codes">Codes</a>
+        <a href="#about">О департаменте</a>
+        <a href="#divisions">Отделы</a>
+        <a href="#manual">Мануал</a>
+        <a href="#codes">Коды</a>
         <a href="#roster">Roster</a>
       </nav>
-      <a class="btn btn-light" href="#manual">Explore Manual</a>
+      <a class="btn btn-light" href="#manual">Открыть мануал</a>
     </div>
   </header>
 
   <section class="hero">
-    <img class="hero-image" src="assets/hero.png" alt="LSPD Headquarters" />
-    <div class="hero-overlay"></div>
+    <img class="hero-image hero-image-strong" src="assets/hero-cinematic.png" alt="Офицеры LSPD у патрульного автомобиля" />
+    <div class="hero-overlay hero-overlay-strong"></div>
     <div class="container hero-grid">
       <div class="hero-copy reveal">
         <div class="pill">To Protect and To Serve</div>
+        <div class="hero-kicker">Official Department Portal</div>
         <h1>Los Santos <span>Police Department</span></h1>
         <p>
-          Офицальный сайт LSPD на проекте Pulse,
-          By Colin.
+          Официальный портал LSPD с полной структурой департамента, встроенным manual,
+          оперативными кодами, roster-информацией и презентацией ключевых отделов.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-light" href="#manual">Open Manual</a>
-          <a class="btn btn-ghost" href="#divisions">Department Structure</a>
+          <a class="btn btn-light" href="#manual">Изучить manual</a>
+          <a class="btn btn-ghost" href="#divisions">Смотреть отделы</a>
+        </div>
+        <div class="hero-command-line">
+          <span>Patrol</span>
+          <span>Training</span>
+          <span>Investigation</span>
+          <span>S.W.A.T.</span>
         </div>
       </div>
       <div class="hero-panel reveal delay-1">
@@ -61,9 +68,11 @@
           <div class="stat-card"><strong>13</strong><span>оперативных кодов</span></div>
           <div class="stat-card"><strong>8</strong><span>рангов и ролей</span></div>
           <div class="stat-card"><strong>24/7</strong><span>боеготовность</span></div>
-        
-
-
+        </div>
+        <div class="hero-panel-footer">
+          <span>Field readiness</span>
+          <span>Department standards</span>
+        </div>
       </div>
     </div>
   </section>
@@ -74,15 +83,16 @@
         <div class="eyebrow">Department</div>
         <h2>Служить и защищать — не слоган, а стандарт поведения каждого офицера.</h2>
         <p>
-          Los Santos Police Department — это городской департамент правопорядка, где дисциплина,
+          Los Santos Police Department — городской департамент правопорядка, где дисциплина,
           координация, грамотное применение силы и аккуратная работа на сценах так же важны,
-          как скорость реакции. Весь регламент и справочники находятся прямо на сайте.
+          как скорость реакции. Все основные регламенты, процедуры, код-таблицы и roster
+          собраны в одном месте.
         </p>
       </div>
       <div class="info-stack">
-        <div class="info-card reveal"><span>✓</span><p>Вся информация мануала встроена прямо в сайт.</p></div>
-        <div class="info-card reveal delay-1"><span>✓</span><p>Таблицы кодов адаптированы под веб-формат без поломки верстки.</p></div>
-        <div class="info-card reveal delay-2"><span>✓</span><p>Разделы раскрываются как полноценная база знаний для LSPD.</p></div>
+        <div class="info-card reveal"><span>01</span><p>Весь manual встроен прямо в сайт и доступен по разделам.</p></div>
+        <div class="info-card reveal delay-1"><span>02</span><p>Оперативные коды и позывные вынесены в отдельный справочный блок.</p></div>
+        <div class="info-card reveal delay-2"><span>03</span><p>Каждый ключевой отдел получил собственный визуальный блок с атмосферой и стилем.</p></div>
       </div>
     </div>
   </section>
@@ -90,69 +100,41 @@
   <section class="section section-alt" id="divisions">
     <div class="container">
       <div class="section-copy reveal narrow">
-
         <div class="eyebrow">Divisions</div>
         <h2>Ключевые направления службы</h2>
-        <p>Организационная структура департамента строится вокруг подготовки, полевого патруля, следственной работы и действий в условиях повышенного риска.</p>
+        <p>Организационная структура департамента строится вокруг подготовки, патруля, следственной работы, публичного взаимодействия и действий в условиях повышенного риска.</p>
       </div>
       <div class="card-grid divisions-grid">
-        <article class="feature-card reveal"><h3>Training Division</h3><p>Набор, базовая подготовка, оценка навыков и развитие личного состава. Здесь формируется фундамент службы каждого офицера.</p></article>
-        <article class="feature-card reveal delay-1"><h3>Patrol Division</h3><p>Патрулирование улиц, реагирование на вызовы, traffic stop, Terry stop и первичная работа на сценах.</p></article>
-        <article class="feature-card reveal delay-2"><h3>S.W.A.T.</h3><p>Подразделение повышенного риска для вооружённых преступников, освобождения заложников, штурма и сценариев с критической угрозой жизни.</p></article>
-        <article class="feature-card reveal delay-3"><h3>Detective Bureau</h3><p>Следственные мероприятия, анализ улик, сопровождение материалов по инцидентам и работа по сложным делам.</p></article>
-      
-<article class="feature-card reveal">
-  <h3>Media / Public Relations</h3>
-  <p>
-    Медиа отдел / Связь с общественностью. Отвечает за взаимодействие с гражданами,
-    освещение деятельности департамента и формирование имиджа LSPD.
-  </p>
-</article>
-
-<article class="feature-card reveal">
-  <h3>GND — Gang & Narcotics Division</h3>
-  <p>
-    Отдел по борьбе с бандами и наркотиками. Ведёт кейс-файлы на преступные
-    группировки Лос-Сантоса и борется с наркотиками и незаконным оружием.
-  </p>
-</article>
-
-</div>
-      <div class="table-card reveal">
-        <div class="table-title">Структура кодов</div>
-        <table>
-          <thead><tr><th>Код</th><th>Значение</th></tr></thead>
-          
-<tbody>
-<tr><td class="code-blue">10-2</td><td>Занят</td></tr>
-<tr><td class="code-blue">10-3</td><td>Локация ____</td></tr>
-<tr><td class="code-green">10-4</td><td>Принято</td></tr>
-<tr><td class="code-blue">10-5</td><td>Повторите</td></tr>
-<tr><td class="code-blue">10-6</td><td>Ответ отрицательный</td></tr>
-<tr><td class="code-blue">10-7</td><td>Окончил смену</td></tr>
-<tr><td class="code-blue">10-8</td><td>Заступил на смену</td></tr>
-<tr><td class="code-green">10-9</td><td>Доступен для вызовов</td></tr>
-<tr><td class="code-blue">10-13</td><td>Сообщите статус</td></tr>
-<tr><td class="code-blue">10-14</td><td>Заступил в патруль</td></tr>
-<tr><td class="code-blue">10-19</td><td>Прибудьте в ____</td></tr>
-<tr><td class="code-green">10-23</td><td>Прибыл на место</td></tr>
-<tr><td class="code-blue">10-24</td><td>Человек в розыске</td></tr>
-<tr><td class="code-yellow">10-26</td><td>Задержание в процессе</td></tr>
-<tr><td class="code-blue">10-44</td><td>Разрешите покинуть сцену</td></tr>
-<tr><td class="code-yellow">10-48</td><td>Контроль трафика</td></tr>
-<tr><td class="code-yellow">10-50</td><td>ДТП</td></tr>
-<tr><td class="code-blue">10-51</td><td>Запрос эвакуатора</td></tr>
-<tr><td class="code-blue">10-55</td><td>Трафик-стоп</td></tr>
-<tr><td class="code-red">10-66</td><td>Трафик-стоп высокого риска</td></tr>
-<tr><td class="code-red">10-70</td><td>Запрос подкрепления</td></tr>
-<tr><td class="code-blue">10-71</td><td>Поиск причины вызова</td></tr>
-<tr><td class="code-blue">10-76</td><td>В пути в ____</td></tr>
-<tr><td class="code-blue">10-77</td><td>Примерное время прибытия</td></tr>
-<tr><td class="code-red">10-80</td><td>Погоня в процессе</td></tr>
-<tr><td class="code-green">10-95</td><td>Подозреваемый под арестом</td></tr>
-</tbody>
-
-        </table>
+        <article class="feature-card feature-card-photo reveal">
+          <img class="division-photo" src="assets/division-training.png" alt="Training Division" />
+          <h3>Training Division</h3>
+          <p>Набор, базовая подготовка, оценка навыков и развитие личного состава. Здесь формируется фундамент службы каждого офицера.</p>
+        </article>
+        <article class="feature-card feature-card-photo reveal delay-1">
+          <img class="division-photo" src="assets/division-patrol.png" alt="Patrol Division" />
+          <h3>Patrol Division</h3>
+          <p>Патрулирование улиц, реагирование на вызовы, traffic stop, Terry stop и первичная работа на сценах.</p>
+        </article>
+        <article class="feature-card feature-card-photo reveal delay-2">
+          <img class="division-photo" src="assets/division-swat.png" alt="SWAT Division" />
+          <h3>S.W.A.T.</h3>
+          <p>Подразделение повышенного риска для вооружённых преступников, освобождения заложников, штурма и сценариев с критической угрозой жизни.</p>
+        </article>
+        <article class="feature-card feature-card-photo reveal delay-3">
+          <img class="division-photo" src="assets/division-detective.png" alt="Detective Bureau" />
+          <h3>Detective Bureau</h3>
+          <p>Следственные мероприятия, анализ улик, сопровождение материалов по инцидентам и работа по сложным делам.</p>
+        </article>
+        <article class="feature-card feature-card-photo reveal">
+          <img class="division-photo" src="assets/division-media.png" alt="Media Division" />
+          <h3>Media / Public Relations</h3>
+          <p>Медиа отдел и связь с общественностью. Отвечает за взаимодействие с гражданами, освещение деятельности департамента и формирование имиджа LSPD.</p>
+        </article>
+        <article class="feature-card feature-card-photo reveal">
+          <img class="division-photo" src="assets/division-gnd.png" alt="Gang and Narcotics Division" />
+          <h3>GND — Gang & Narcotics Division</h3>
+          <p>Отдел по борьбе с бандами и наркотиками. Ведёт кейс-файлы на преступные группировки Лос-Сантоса и борется с наркотиками и незаконным оружием.</p>
+        </article>
       </div>
     </div>
   </section>
@@ -418,7 +400,7 @@
           <div class="accordion-content">
             <ul>
               <li>Каждый сотрудник правопорядка должен знать, как оказывать доврачебную медицинскую помощь в различных ситуациях.</li>
-              <li>Приоритет ПМП: офицер LEO → сотрудник EMS/FD → гражданский → преступник.</li>
+              <li>Приоритет ПМП: офицер LEO > сотрудник EMS/FD > гражданский > преступник.</li>
               <li>Не двигайте пострадавшего без острой необходимости.</li>
               <li>Останавливайте кровотечение жгутом или бинтом.</li>
               <li>Если человек ранен или без сознания, не приводите его в чувство без необходимости.</li>
@@ -511,6 +493,40 @@
         <div class="eyebrow">Radio & Field Codes</div>
         <h2>Оперативные коды, позывные и фонетический алфавит</h2>
         <p>Вынесено в отдельный справочный раздел в удобной веб-структуре.</p>
+      </div>
+      <div class="table-card reveal">
+        <div class="table-title">Структура кодов</div>
+        <table>
+          <thead><tr><th>Код</th><th>Значение</th></tr></thead>
+          <tbody>
+            <tr><td class="code-blue">10-2</td><td>Занят</td></tr>
+            <tr><td class="code-blue">10-3</td><td>Локация ____</td></tr>
+            <tr><td class="code-green">10-4</td><td>Принято</td></tr>
+            <tr><td class="code-blue">10-5</td><td>Повторите</td></tr>
+            <tr><td class="code-blue">10-6</td><td>Ответ отрицательный</td></tr>
+            <tr><td class="code-blue">10-7</td><td>Окончил смену</td></tr>
+            <tr><td class="code-blue">10-8</td><td>Заступил на смену</td></tr>
+            <tr><td class="code-green">10-9</td><td>Доступен для вызовов</td></tr>
+            <tr><td class="code-blue">10-13</td><td>Сообщите статус</td></tr>
+            <tr><td class="code-blue">10-14</td><td>Заступил в патруль</td></tr>
+            <tr><td class="code-blue">10-19</td><td>Прибудьте в ____</td></tr>
+            <tr><td class="code-green">10-23</td><td>Прибыл на место</td></tr>
+            <tr><td class="code-blue">10-24</td><td>Человек в розыске</td></tr>
+            <tr><td class="code-yellow">10-26</td><td>Задержание в процессе</td></tr>
+            <tr><td class="code-blue">10-44</td><td>Разрешите покинуть сцену</td></tr>
+            <tr><td class="code-yellow">10-48</td><td>Контроль трафика</td></tr>
+            <tr><td class="code-yellow">10-50</td><td>ДТП</td></tr>
+            <tr><td class="code-blue">10-51</td><td>Запрос эвакуатора</td></tr>
+            <tr><td class="code-blue">10-55</td><td>Трафик-стоп</td></tr>
+            <tr><td class="code-red">10-66</td><td>Трафик-стоп высокого риска</td></tr>
+            <tr><td class="code-red">10-70</td><td>Запрос подкрепления</td></tr>
+            <tr><td class="code-blue">10-71</td><td>Поиск причины вызова</td></tr>
+            <tr><td class="code-blue">10-76</td><td>В пути в ____</td></tr>
+            <tr><td class="code-blue">10-77</td><td>Примерное время прибытия</td></tr>
+            <tr><td class="code-red">10-80</td><td>Погоня в процессе</td></tr>
+            <tr><td class="code-green">10-95</td><td>Подозреваемый под арестом</td></tr>
+          </tbody>
+        </table>
       </div>
       <div class="table-grid three-up">
         <div class="table-card reveal">
@@ -622,20 +638,20 @@
     <div class="container footer-grid">
       <div>
         <div class="brand-title">Los Santos Police Department</div>
-        <p>Полноценный сайт- с мануалами LSPD.</p>
+        <p>Полноценный портал LSPD с manual, roster, кодами и структурой отделов.</p>
       </div>
       <div>
-        <h4>Sections</h4>
+        <h4>Разделы</h4>
         <ul>
-          <li>About</li>
-          <li>Divisions</li>
+          <li>О департаменте</li>
+          <li>Отделы</li>
           <li>Manual</li>
           <li>Radio & Codes</li>
         </ul>
       </div>
       <div>
-        <h4>Status</h4>
-        <p>Ready for deployment</p>
+        <h4>Доступ</h4>
+        <p>Основные материалы, регламенты и справочные данные собраны на одной странице.</p>
       </div>
     </div>
   </footer>
@@ -653,3 +669,5 @@ function closeTenCodes(){
 
 </body>
 </html>
+
+
